@@ -1,17 +1,27 @@
 <template>
+    <body>
     <div class="app">
-        <Header/>
+
+        </div>
         <Sidebar/>
-        <main>
-            <router-view/>
-        </main>
-    </div>
+
+        <div id="right-panel" class="right-panel">
+            <Header/>
+            <main>
+                <router-view/>
+
+                <!--<div style="width:100%">content here </div>-->
+            </main>
+        </div>
+
+
+    </body>
 </template>
 
 
 <script>
-    import Header from "@/components/layouts/Header.vue";
-    import Sidebar from "@/components/layouts/Sidebar.vue";
+    import Header from "@/components/layouts/Header"
+    import Sidebar from "@/components/layouts/Sidebar"
     export default {
         name: "app",
         components: {

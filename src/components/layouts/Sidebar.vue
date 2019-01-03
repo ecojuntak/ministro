@@ -7,8 +7,8 @@
                         aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="/"><img src="../../admin-assets/images/admin.jpg" alt="Logo"></a>
-                <a class="navbar-brand hidden" href="/"><img src="../../admin-assets/images/admin.jpg" alt="Logo"></a>
+                <a class="navbar-brand" href="/"><img src="../../admin-assets/images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="/"><img src="../../admin-assets/images/logo2.png" alt="Logo"></a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
