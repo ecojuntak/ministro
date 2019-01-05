@@ -18,12 +18,12 @@
                     <li> <a href="/merchant"> <i class="menu-icon fa fa-users"></i>List of Merchant </a> </li>
 
                     <h3 class="menu-title">Order</h3>
-                    <li> <a href=""> <i class="menu-icon fa fa-archive"></i> New Order </a> </li>
-                    <li> <a href=""> <i class="menu-icon fa fa-archive"></i> Unpaid Order </a> </li>
-                    <li> <a href=""> <i class="menu-icon fa fa-archive"></i> Paid Order </a> </li>
-                    <li> <a href=""> <i class="menu-icon fa fa-archive"></i> Invalid Order </a> </li>
-                    <li> <a href=""> <i class="menu-icon fa fa-archive"></i> On Process Order </a> </li>
-                    <li> <a href=""> <i class="menu-icon fa fa-archive"></i> Successed Order </a> </li>
+                    <li> <a href="/new-order"> <i class="menu-icon fa fa-archive"></i> New Order </a> </li>
+                    <li> <a href="/unpaid-order"> <i class="menu-icon fa fa-archive"></i> Unpaid Order </a> </li>
+                    <li> <a href="/paid-order"> <i class="menu-icon fa fa-archive"></i> Paid Order </a> </li>
+                    <li> <a href="/invalid-orer"> <i class="menu-icon fa fa-archive"></i> Invalid Order </a> </li>
+                    <li> <a href="/onprocess-order"> <i class="menu-icon fa fa-archive"></i> On Process Order </a> </li>
+                    <li> <a href="/successed-order"> <i class="menu-icon fa fa-archive"></i> Successed Order </a> </li>
 
                     <h3 class="menu-title">View</h3>
                     <li> <a href="/carousel"> <i class="menu-icon fa fa-star"></i> Carousel </a> </li>

@@ -12,6 +12,15 @@ import ShowCarousel from './views/admin/carousels/ShowCarousel.vue'
 import NewMerchant from './views/admin/merchants/NewMerchant.vue'
 import Merchant from './views/admin/merchants/Merchant.vue'
 import DetailMerchant from './views/admin/merchants/DetailMerchant.vue'
+import NewOrder from './views/admin/orders/NewOrder.vue'
+import NewOrderDetail from './views/admin/orders/NewOrderDetail.vue'
+import InvalidOrder from './views/admin/orders/InvalidOrder.vue'
+import PaidOrder from './views/admin/orders/PaidOrder.vue'
+import PaidOrderDetail from './views/admin/orders/PaidOrderDetail.vue'
+import SuccessedOrder from './views/admin/orders/SuccessedOrder.vue'
+import UnpaidOrder from './views/admin/orders/UnpaidOrder.vue'
+import UnpaidOrderDetail from './views/admin/orders/UnpaidOrderDetail.vue'
+import OnprocessOrder from './views/admin/orders/OnprocessOrder.vue'
 
 
 Vue.use(Router)
@@ -82,6 +91,54 @@ export default new Router({
       path: '/merchant/detail',
       name: 'detailmerchant',
       component: DetailMerchant
+    },
+
+    {
+      path: '/new-order',
+      name: 'neworder',
+      component: NewOrder
+    },
+    {
+      path: '/new-order/detail',
+      name: 'neworderdetail',
+      component: NewOrderDetail
+    },
+    {
+      path: '/invalid-order',
+      name: 'invalidorder',
+      component: InvalidOrder
+    },
+    {
+      path: '/paid-order',
+      name: 'paidorder',
+      component: PaidOrder
+    },
+    {
+      path: '/paid-order/detail',
+      name: 'paidorderdetail',
+      component: NewOrder
+    },
+
+    {
+      path: '/successed-order',
+      name: 'successedorder',
+      component: SuccessedOrder
+    },
+    {
+      path: '/unpaid-order',
+      name: 'unpaidorder',
+      component: UnpaidOrder
+    },
+    {
+      path: '/unpaid-order/detail',
+      name: 'unpaidorder',
+      component: UnpaidOrderDetail
+    },
+
+    {
+      path: '/onprocess-order',
+      name: 'onprocessorder',
+      component: OnprocessOrder
     },
 
     {
