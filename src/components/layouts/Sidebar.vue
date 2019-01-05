@@ -26,8 +26,8 @@
                     <li> <a href=""> <i class="menu-icon fa fa-archive"></i> Successed Order </a> </li>
 
                     <h3 class="menu-title">View</h3>
-                    <li> <a href=""> <i class="menu-icon fa fa-star"></i> Carousel </a> </li>
-                    <li> <a href=""> <i class="menu-icon fa fa-bookmark"></i> Banner </a> </li>
+                    <li> <a href="/carousel"> <i class="menu-icon fa fa-star"></i> Carousel </a> </li>
+                    <li> <a href="/banner"> <i class="menu-icon fa fa-bookmark"></i> Banner </a> </li>
                     <li> <a href=""> <i class="menu-icon fa fa-stack-exchange"></i> Blogs </a> </li>
 
                     <h3 class="menu-title">Role & Permissions</h3>

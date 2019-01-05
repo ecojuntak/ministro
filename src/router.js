@@ -4,6 +4,12 @@ import Home from './views/Home'
 import Banner from './views/admin/banners/Banner.vue'
 import CreateBanner from './views/admin/banners/CreateBanner.vue'
 import EditBanner from './views/admin/banners/EditBanner.vue'
+import DetailBanner from './views/admin/banners/DetailBanner.vue'
+import Carousel from './views/admin/carousels/Carousel.vue'
+import CreateCarousel from './views/admin/carousels/CreateCarousel.vue'
+import EditCarousel from './views/admin/carousels/EditCarousel.vue'
+import ShowCarousel from './views/admin/carousels/ShowCarousel.vue'
+
 
 Vue.use(Router)
 
@@ -31,6 +37,33 @@ export default new Router({
       name: 'editbanner',
       component: EditBanner
     },
+    {
+      path: '/banner/detail',
+      name: 'detailbanner',
+      component: DetailBanner
+    },
+
+    {
+      path: '/carousel',
+      name: 'carousel',
+      component: Carousel
+    },
+    {
+      path: '/carousel/create',
+      name: 'createcarousel',
+      component: CreateCarousel
+    },
+    {
+      path: '/carousel/edit',
+      name: 'editcarousel',
+      component: EditCarousel
+    },
+    {
+      path: '/carousel/show',
+      name: 'showcarousel',
+      component: ShowCarousel
+    },
+
     {
       path: '/about',
       name: 'about',

@@ -3,22 +3,18 @@
         <div class="animated fadeIn">
             <div class="row">
                 <div class="col-12">
-                    <a href="/banner/create" class="btn btn-info text-white pull-right">
-                        <span class="fa fa-plus"> </span> Add Banner
+                    <a href="/carousel/create" class="btn btn-info text-white pull-right">
+                        <span class="fa fa-plus"> </span> Add Carousel
                     </a>
                 </div>
             </div>
-
             <div class="row">
 
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="../../../admin-assets/images/admin.jpg" alt="Banner image">
-                        <div class="card-title">
-                            <h2 class="card-text" style="text-align: center"> Banner 1</h2>
-                        </div>
+                        <img class="card-img-top" src="../../../admin-assets/images/admin.jpg" alt="Carousel image">
                         <div class="card-body">
-                            <p class="card-text" id="clampjs"> ini banner</p>
+                            <p class="card-text"> description</p>
                             <a href="#">
                                 <span class="btn btn-link btn-sm"><i class="fa fa-link"></i>&nbsp; Link</span>
                             </a>
@@ -28,7 +24,7 @@
                                 <span class="switch-label"></span> <span class="switch-handle"></span>
                             </label>
 
-                            <a href="/banner/detail"><span class="badge badge-primary pull-right">Detail</span></a>
+                            <a href="/carousel/show"><span class="badge badge-primary pull-right">Detail</span></a>
                         </div>
                     </div>
                 </div>
