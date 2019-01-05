@@ -9,6 +9,9 @@ import Carousel from './views/admin/carousels/Carousel.vue'
 import CreateCarousel from './views/admin/carousels/CreateCarousel.vue'
 import EditCarousel from './views/admin/carousels/EditCarousel.vue'
 import ShowCarousel from './views/admin/carousels/ShowCarousel.vue'
+import NewMerchant from './views/admin/merchants/NewMerchant.vue'
+import Merchant from './views/admin/merchants/Merchant.vue'
+import DetailMerchant from './views/admin/merchants/DetailMerchant.vue'
 
 
 Vue.use(Router)
@@ -62,6 +65,23 @@ export default new Router({
       path: '/carousel/show',
       name: 'showcarousel',
       component: ShowCarousel
+    },
+
+    {
+      path: '/merchant/',
+      name: 'merchant',
+      component: Merchant
+    },
+    {
+      path: '/new-merchant/',
+      name: 'merchant',
+      component: NewMerchant
+    },
+
+    {
+      path: '/merchant/detail',
+      name: 'detailmerchant',
+      component: DetailMerchant
     },
 
     {
